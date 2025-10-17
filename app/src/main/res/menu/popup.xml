@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/basic"
+        android:title="Basic"
+        />
+    <item
+        android:id="@+id/scientific"
+        android:title="Scientific"
+        />
+    <item
+        android:id="@+id/mathnotes"
+        android:title="Math Notes"
+        />
+    <item
+        android:id="@+id/convert"
+        android:title="Convert"
+        />
+</menu>
