@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="bottom">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Menu"
+                android:src="@drawable/baseline_format_list_bulleted_24">
+
+            </ImageButton>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:gravity="end|bottom"
+            android:paddingHorizontal="16dp"
+            android:text="-56"
+            android:textColor="@color/grey"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:gravity="end|top"
+            android:paddingHorizontal="20dp"
+            android:text="9,999"
+            android:textColor="@color/white"
+            android:textSize="45sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="0">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="7"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="8"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="9"
+                        />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="AC"
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="÷"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="4"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="5"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="6"
+                        />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="+/-"
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="╳"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="1"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="2"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="3"
+                        />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="%"
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="─"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/functions"
+                        style="@style/softButtonsLands"
+                        android:layout_marginVertical="4dp"
+                        android:background="@drawable/circle"
+                        android:contentDescription="Calculator Icon"
+                        android:src="@drawable/calculator_solid_land" />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="0"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="."
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="="
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="+"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="("
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text=")"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="mc"
+                        />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="m+"
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="m-"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="mr"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="AC"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="+/-"
+                        />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="%"
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="÷"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="2ⁿᵈ"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="x²"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="x³"
+                        />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="xʸ"
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="𝑒ˣ"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="10ˣ"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="7"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="8"
+                        />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="9"
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="╳"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="¹⁄ₓ"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="²√x"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="³√x"
+                        />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="ʸ√x"
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="ln"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="log₁₀"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="4"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="5"
+                        />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="6"
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="─"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="x!"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="sin"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="cos"
+                        />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="tan"
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="𝑒"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="EE"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="1"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="2"
+                        />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="3"
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="+"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/functions2"
+                        style="@style/softButtonsLands"
+                        android:layout_marginVertical="4dp"
+                        android:background="@drawable/circle"
+                        android:contentDescription="Calculator Icon"
+                        android:src="@drawable/calculator_solid_land" />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="sinh"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="cosh"
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="tanh"
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="π"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="Rad"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="Rand"
+                        />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="0"
+                        />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="."
+                        />
+
+                    <Button
+                        style="@style/yellowButtonsLands"
+                        android:text="="
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

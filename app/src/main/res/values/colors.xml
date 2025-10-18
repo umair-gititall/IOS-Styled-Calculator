@@ -5,5 +5,6 @@
     <color name="grey">#808080</color>
     <color name="softGrey">#3A3A3B</color>
     <color name="brighterGrey">#5C5C5F</color>
+    <color name="darkGrey">#3A3A4B</color>
     <color name="yellow">#FE9E0A</color>
 </resources>

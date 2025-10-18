@@ -19,32 +19,35 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageButton fnc;
+    ImageButton[] fnc = new ImageButton[2];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        fnc = findViewById(R.id.functions);
+        fnc[0] = findViewById(R.id.functions);
+        fnc[1] = findViewById(R.id.functions2);
 
-        fnc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                PopupMenu popup = new PopupMenu(MainActivity.this, fnc);
-                popup.getMenuInflater().inflate(R.menu.popup, popup.getMenu());
+        for(ImageButton b: fnc)
+            b.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    PopupMenu popup = new PopupMenu(MainActivity.this, b);
+                    popup.getMenuInflater().inflate(R.menu.popup, popup.getMenu());
 
-                popup.setOnMenuItemClickListener(item -> {
-                    int id = item.getItemId();
+                    popup.setOnMenuItemClickListener(item -> {
+                        int id = item.getItemId();
 
-                    if(id == R.id.basic) {
-                        Toast.makeText(MainActivity.this, "Basic", Toast.LENGTH_LONG).show();
-                        return true;
-                    }
-                    return false;
-                });
-                popup.show();
-            }
-        });
+                        if(id == R.id.basic) {
+                            Toast.makeText(MainActivity.this, "Basic", Toast.LENGTH_LONG).show();
+                            return true;
+                        }
+                        return false;
+                   });
+                    popup.show();
+                }
+         });
     }
 }

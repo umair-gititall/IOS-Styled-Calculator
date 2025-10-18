@@ -15,5 +15,6 @@
     <item
         android:id="@+id/convert"
         android:title="Convert"
+        android:checkable="true"
         />
 </menu>
