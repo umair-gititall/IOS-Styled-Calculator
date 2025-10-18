@@ -71,28 +71,23 @@
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="7"
-                        />
+                        android:text="7" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="8"
-                        />
+                        android:text="8" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="9"
-                        />
+                        android:text="9" />
 
                     <Button
                         style="@style/brightButtonsLands"
-                        android:text="AC"
-                        />
+                        android:text="AC" />
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="÷"
-                        />
+                        android:text="÷" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -103,28 +98,23 @@
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="4"
-                        />
+                        android:text="4" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="5"
-                        />
+                        android:text="5" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="6"
-                        />
+                        android:text="6" />
 
                     <Button
                         style="@style/brightButtonsLands"
-                        android:text="+/-"
-                        />
+                        android:text="+/-" />
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="╳"
-                        />
+                        android:text="╳" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -135,28 +125,23 @@
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="1"
-                        />
+                        android:text="1" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="2"
-                        />
+                        android:text="2" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="3"
-                        />
+                        android:text="3" />
 
                     <Button
                         style="@style/brightButtonsLands"
-                        android:text="%"
-                        />
+                        android:text="%" />
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="─"
-                        />
+                        android:text="─" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -175,33 +160,28 @@
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="0"
-                        />
+                        android:text="0" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="."
-                        />
+                        android:text="." />
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="="
-                        />
+                        android:text="=" />
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="+"
-                        />
+                        android:text="+" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
 
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginHorizontal="20dp"
+            android:layout_marginHorizontal="30dp"
             android:layout_weight="0.5">
 
             <LinearLayout
@@ -217,54 +197,44 @@
                     android:orientation="horizontal">
 
                     <Button
-                        style="@style/softButtonsLands"
-                        android:text="("
-                        />
+                        style="@style/darkButtonsLands"
+                        android:text="(" />
 
                     <Button
-                        style="@style/softButtonsLands"
-                        android:text=")"
-                        />
+                        style="@style/darkButtonsLands"
+                        android:text=")" />
 
                     <Button
-                        style="@style/softButtonsLands"
-                        android:text="mc"
-                        />
+                        style="@style/darkButtonsLands"
+                        android:text="mc" />
 
                     <Button
-                        style="@style/brightButtonsLands"
-                        android:text="m+"
-                        />
+                        style="@style/darkButtonsLands"
+                        android:text="m+" />
 
                     <Button
-                        style="@style/yellowButtonsLands"
-                        android:text="m-"
-                        />
+                        style="@style/darkButtonsLands"
+                        android:text="m-" />
 
                     <Button
-                        style="@style/softButtonsLands"
-                        android:text="mr"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="AC"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="+/-"
-                        />
+                        style="@style/darkButtonsLands"
+                        android:text="mr" />
 
                     <Button
                         style="@style/brightButtonsLands"
-                        android:text="%"
-                        />
+                        android:text="AC" />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="+/-" />
+
+                    <Button
+                        style="@style/brightButtonsLands"
+                        android:text="%" />
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="÷"
-                        />
+                        android:text="÷" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -274,54 +244,44 @@
                     android:orientation="horizontal">
 
                     <Button
-                        style="@style/softButtonsLands"
-                        android:text="2ⁿᵈ"
-                        />
+                        style="@style/darkButtonsLands"
+                        android:text="2ⁿᵈ" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="x²" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="x³" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="xʸ" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="𝑒ˣ" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="10ˣ" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="x²"
-                        />
+                        android:text="7" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="x³"
-                        />
+                        android:text="8" />
 
                     <Button
-                        style="@style/brightButtonsLands"
-                        android:text="xʸ"
-                        />
+                        style="@style/softButtonsLands"
+                        android:text="9" />
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="𝑒ˣ"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="10ˣ"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="7"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="8"
-                        />
-
-                    <Button
-                        style="@style/brightButtonsLands"
-                        android:text="9"
-                        />
-
-                    <Button
-                        style="@style/yellowButtonsLands"
-                        android:text="╳"
-                        />
+                        android:text="╳" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -331,54 +291,44 @@
                     android:orientation="horizontal">
 
                     <Button
-                        style="@style/softButtonsLands"
-                        android:text="¹⁄ₓ"
-                        />
+                        style="@style/darkButtonsLands"
+                        android:text="¹⁄ₓ" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="²√x" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="³√x" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="ʸ√x" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="ln" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="log₁₀" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="²√x"
-                        />
+                        android:text="4" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="³√x"
-                        />
+                        android:text="5" />
 
                     <Button
-                        style="@style/brightButtonsLands"
-                        android:text="ʸ√x"
-                        />
+                        style="@style/softButtonsLands"
+                        android:text="6" />
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="ln"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="log₁₀"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="4"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="5"
-                        />
-
-                    <Button
-                        style="@style/brightButtonsLands"
-                        android:text="6"
-                        />
-
-                    <Button
-                        style="@style/yellowButtonsLands"
-                        android:text="─"
-                        />
+                        android:text="─" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -388,54 +338,44 @@
                     android:orientation="horizontal">
 
                     <Button
-                        style="@style/softButtonsLands"
-                        android:text="x!"
-                        />
+                        style="@style/darkButtonsLands"
+                        android:text="x!" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="sin" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="cos" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="tan" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="𝑒" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="EE" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="sin"
-                        />
+                        android:text="1" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="cos"
-                        />
+                        android:text="2" />
 
                     <Button
-                        style="@style/brightButtonsLands"
-                        android:text="tan"
-                        />
+                        style="@style/softButtonsLands"
+                        android:text="3" />
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="𝑒"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="EE"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="1"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="2"
-                        />
-
-                    <Button
-                        style="@style/brightButtonsLands"
-                        android:text="3"
-                        />
-
-                    <Button
-                        style="@style/yellowButtonsLands"
-                        android:text="+"
-                        />
+                        android:text="+" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -446,56 +386,47 @@
 
                     <ImageButton
                         android:id="@+id/functions2"
-                        style="@style/softButtonsLands"
+                        style="@style/darkButtonsLands"
                         android:layout_marginVertical="4dp"
                         android:background="@drawable/circle"
                         android:contentDescription="Calculator Icon"
                         android:src="@drawable/calculator_solid_land" />
 
                     <Button
-                        style="@style/softButtonsLands"
-                        android:text="sinh"
-                        />
+                        style="@style/darkButtonsLands"
+                        android:text="sinh" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="cosh" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="tanh" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="π" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="Rad" />
 
                     <Button
                         style="@style/softButtonsLands"
-                        android:text="cosh"
-                        />
+                        android:text="Rand" />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="0" />
+
+                    <Button
+                        style="@style/softButtonsLands"
+                        android:text="." />
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="tanh"
-                        />
-
-                    <Button
-                        style="@style/yellowButtonsLands"
-                        android:text="π"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="Rad"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="Rand"
-                        />
-
-                    <Button
-                        style="@style/softButtonsLands"
-                        android:text="0"
-                        />
-
-                    <Button
-                        style="@style/brightButtonsLands"
-                        android:text="."
-                        />
-
-                    <Button
-                        style="@style/yellowButtonsLands"
-                        android:text="="
-                        />
+                        android:text="=" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

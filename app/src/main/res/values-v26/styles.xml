@@ -8,36 +8,39 @@
         <item name="android:layout_marginHorizontal">5dp</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:padding">1dp</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
     <style name="yellowButtons" parent="buttons">
         <item name="android:backgroundTint">@color/yellow</item>
-        <item name="android:textSize">20sp</item>
     </style>
 
     <style name="softButtons" parent="buttons">
         <item name="android:backgroundTint">@color/softGrey</item>
-        <item name="android:textSize">20sp</item>
     </style>
 
     <style name="brightButtons" parent="buttons">
         <item name="android:backgroundTint">@color/brighterGrey</item>
-        <item name="android:textSize">20sp</item>
     </style>
 
-    <style name="yellowButtonsLands" parent="buttons">
+    <style name="buttonsLands" parent="buttons">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="yellowButtonsLands" parent="buttonsLands">
         <item name="android:backgroundTint">@color/yellow</item>
-        <item name="android:textSize">15sp</item>
     </style>
 
-    <style name="softButtonsLands" parent="buttons">
+    <style name="softButtonsLands" parent="buttonsLands">
         <item name="android:backgroundTint">@color/softGrey</item>
-        <item name="android:textSize">15sp</item>
     </style>
 
-    <style name="brightButtonsLands" parent="buttons">
+    <style name="brightButtonsLands" parent="buttonsLands">
         <item name="android:backgroundTint">@color/brighterGrey</item>
-        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="darkButtonsLands" parent="buttonsLands">
+        <item name="android:backgroundTint">@color/darkGrey</item>
     </style>
 
 

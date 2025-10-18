@@ -24,55 +24,222 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/baseline_format_list_bulleted_24"
-            android:layout_marginHorizontal="10dp"
+            android:layout_marginHorizontal="20dp"
             android:background="@android:color/transparent"
             android:contentDescription="Menu"
             >
-
         </ImageButton>
     </LinearLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.13"/>
+        android:layout_weight="0.10"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.1"
+        android:layout_weight="0.07"
         android:text="-56"
-        android:textSize="35sp"
+        android:textSize="25sp"
         android:textColor="@color/grey"
-        android:paddingHorizontal="13dp"
-        android:paddingTop="13dp"
-        android:gravity="end|center"
+        android:paddingHorizontal="15dp"
+        android:paddingTop="10dp"
+        android:gravity="end"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_weight="0.11"
         android:text="9,999"
-        android:textSize="55sp"
+        android:textSize="50sp"
         android:textColor="@color/white"
-        android:paddingHorizontal="13dp"
-        android:gravity="end|center"
-        android:layout_weight="0.1"
+        android:paddingHorizontal="15dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="end"
         />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:layout_marginHorizontal="13dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="(" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text=")" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="mc" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="m+" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="m-" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="mr" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="2ⁿᵈ" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="x²" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="x³" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="xʸ" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="𝑒ˣ" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="10ˣ" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="¹⁄ₓ" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="²√x" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="³√x" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="ʸ√x" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="ln" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="log₁₀" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="x!" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="sin" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="cos" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="tan" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="𝑒" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="EE" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="Rand" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="sinh" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="cosh" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="tanh" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="π" />
+
+                    <Button
+                        style="@style/darkButtonsLands"
+                        android:text="Rad" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.1"
             android:orientation="horizontal"
+            android:layout_marginHorizontal="10dp"
             >
             <Button
                 style="@style/brightButtons"
                 android:text="AC"
-                android:textSize="20sp"
                 />
             <Button
                 style="@style/brightButtons"
                 android:text="+/-"
-                android:textSize="20sp"
                 />
             <Button
                 style="@style/brightButtons"
@@ -82,7 +249,7 @@
             <Button
                 style="@style/yellowButtons"
                 android:text="÷"
-                android:textSize="50sp"
+                android:textSize="30sp"
                 />
         </LinearLayout>
 
@@ -91,6 +258,7 @@
             android:layout_height="0dp"
             android:layout_weight="0.1"
             android:orientation="horizontal"
+            android:layout_marginHorizontal="10dp"
             >
             <Button
                 style="@style/softButtons"
@@ -119,6 +287,7 @@
             android:layout_height="0dp"
             android:layout_weight="0.1"
             android:orientation="horizontal"
+            android:layout_marginHorizontal="10dp"
             >
             <Button
                 style="@style/softButtons"
@@ -138,7 +307,7 @@
             <Button
                 style="@style/yellowButtons"
                 android:text="─"
-                android:textSize="40sp"
+                android:textSize="30sp"
                 />
         </LinearLayout>
 
@@ -147,6 +316,7 @@
             android:layout_height="0dp"
             android:layout_weight="0.1"
             android:orientation="horizontal"
+            android:layout_marginHorizontal="10dp"
             >
             <Button
                 style="@style/softButtons"
@@ -166,7 +336,7 @@
             <Button
                 style="@style/yellowButtons"
                 android:text="+"
-                android:textSize="40sp"
+                android:textSize="30sp"
                 />
         </LinearLayout>
 
@@ -175,6 +345,7 @@
             android:layout_height="0dp"
             android:layout_weight="0.1"
             android:orientation="horizontal"
+            android:layout_marginHorizontal="10dp"
             >
             <ImageButton
                 android:id="@+id/functions"
@@ -204,7 +375,7 @@
             <Button
                 style="@style/yellowButtons"
                 android:text="="
-                android:textSize="40sp"
+                android:textSize="30sp"
                 />
         </LinearLayout>
 
