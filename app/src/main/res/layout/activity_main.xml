@@ -30,10 +30,12 @@
             >
         </ImageButton>
     </LinearLayout>
-    <View
+    <LinearLayout
+        android:id="@+id/spacer"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.10"/>
+        android:layout_weight="0.19"
+        android:orientation="horizontal"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -43,7 +45,7 @@
         android:textSize="25sp"
         android:textColor="@color/grey"
         android:paddingHorizontal="15dp"
-        android:paddingTop="10dp"
+        android:paddingTop="20dp"
         android:gravity="end"
         />
     <TextView
@@ -58,9 +60,10 @@
         android:gravity="end"
         />
         <LinearLayout
+            android:id="@+id/special"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.4"
+            android:layout_weight="0.0"
             android:layout_marginHorizontal="13dp">
 
             <LinearLayout
@@ -227,6 +230,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/normal"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.1"
@@ -359,6 +363,13 @@
                 android:layout_height="0dp"
                 android:layout_width="0dp"
                 android:id="@+id/functions2"
+                android:visibility="gone"
+                android:contentDescription="Calculator Icon"
+                />
+            <ImageButton
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:id="@+id/functions3"
                 android:visibility="gone"
                 android:contentDescription="Calculator Icon"
                 />

@@ -52,10 +52,11 @@
             android:textSize="45sp" />
 
         <LinearLayout
+            android:id="@id/normal"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginHorizontal="20dp"
-            android:layout_weight="0">
+            android:layout_weight="0.5">
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -151,7 +152,14 @@
                     android:orientation="horizontal">
 
                     <ImageButton
+                        android:layout_height="0dp"
+                        android:layout_width="0dp"
                         android:id="@+id/functions"
+                        android:visibility="gone"
+                        android:contentDescription="Calculator Icon"/>
+
+                    <ImageButton
+                        android:id="@+id/functions2"
                         style="@style/softButtonsLands"
                         android:layout_marginVertical="4dp"
                         android:background="@drawable/circle"
@@ -179,10 +187,11 @@
 
 
         <LinearLayout
+            android:id="@+id/special"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginHorizontal="30dp"
-            android:layout_weight="0.5">
+            android:layout_weight="0">
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -385,7 +394,7 @@
                     android:orientation="horizontal">
 
                     <ImageButton
-                        android:id="@+id/functions2"
+                        android:id="@+id/functions3"
                         style="@style/darkButtonsLands"
                         android:layout_marginVertical="4dp"
                         android:background="@drawable/circle"
