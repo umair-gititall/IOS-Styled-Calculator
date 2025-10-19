@@ -21,7 +21,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     ImageButton fncButton;
-    ImageButton[] fnc = new ImageButton[2];
+    ImageButton[] fnc = new ImageButton[2] ;
     LinearLayout[] layouts = new LinearLayout[2];
     LinearLayout spacer;
     List<View> btns = new ArrayList<>();
