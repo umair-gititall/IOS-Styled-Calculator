@@ -32,22 +32,24 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/expression"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.1"
             android:gravity="end|bottom"
             android:paddingHorizontal="16dp"
-            android:text="-56"
+            android:text=""
             android:textColor="@color/grey"
             android:textSize="20sp" />
 
         <TextView
+            android:id="@+id/result"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="0.15"
             android:gravity="end|top"
             android:paddingHorizontal="20dp"
-            android:text="9,999"
+            android:text="0"
             android:textColor="@color/white"
             android:textSize="45sp" />
 
@@ -115,7 +117,7 @@
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="╳" />
+                        android:text="x" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -142,7 +144,7 @@
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="─" />
+                        android:text="-" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -290,7 +292,7 @@
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="╳" />
+                        android:text="x" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -337,7 +339,7 @@
 
                     <Button
                         style="@style/yellowButtonsLands"
-                        android:text="─" />
+                        android:text="-" />
                 </LinearLayout>
 
                 <LinearLayout
